@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    background-color: black;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+}
+
+hr{
+    border-style: none;
+    height: 0px;
+    width: 50%;
+    border-top: 2px dashed;
+    margin: 20px auto;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: grey;
+}
+a:hover{
+    color: red;
+}
