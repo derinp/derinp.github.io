@@ -23,9 +23,145 @@
         <a href="index.html">/home</a> <a href="walkthroughs.html">/HTB_Walkthroughs</a><br>
         <hr>
     </div>
+    <img src="images/nibbles.png"><br>
+    This is a walkthrough on the retired Nibbles box from Hackthebox.eu
+    <div class="walkthroughs">
 
-    <div>
+        <H2>Recon Phase</H2>
+        The first thing I do is check nmap and get these results:<br>
+        <img src="images/nibbles/nmapscan.png"><br>
+        From here we see that port 80 and 22 are open, this means there is a webpage running and that we can ssh into<br>
+        the box.<br>
+        <br>
+        I open my browser and check out the webpage, I am greeted with a "Hello World" banner.<br>
+        <br>
+        After checking out the page source, there is a comment directing me to go to the following directory:<br>
+        <img src="images/nibbles/pagesource.png"><br>
+        <br>
+        While looking around the /nibbleblog/ directory I fire up drib to see if I can find any hidden<br>
+        directories.<br>
+        <br>
+        To get more information on the technologies used on this website, I do a "whatweb" with the following results:<br>
+        <img src="images/nibbles/whatweb.png"><br>
+        <br>
+        The following technologies are being used: Apache 2.14.8, it is running on Ubuntu, and it is being powered by<br>
+        NibbleBlog.<br>
+        <br>
+        I do a quick searchsploit and find these results:<br>
+        <img src="images/nibbles/searchsploit.png"><br>
+        I take note of the exploits found.<br>
+        <br>
+        at this point the directory scan has finished and I end up with these results.<br>
+        I find a bunch of directories, the ones that interest me the most are README, themes and admin.php<br>
+        <img src="images/nibbles/dirbscan.png"><br>
+        <br>
 
+        I launch a web browser and navigate to the /nibbleblog/README location and find 3 pieces of information:<br>
+        <img src="images/nibbles/readme.png"><br>
+        <br>
+        What excites me the most is that if we look back to our searchsploit results and the README file, the versions<br>
+        of NibbleBlog match.<br>
+        <br>
+
+        This blog is using v4.0.3. The blog in the current version can be attacked by an Arbitrary file upload. (I know I could use metasploit from<br>
+        here but for learning purposes, I will try to execute the exploit without the help of metasploit.)<br>
+        After reading up on the exploit on Rapid7.com, the description states that an authenticated attacker can execute arbitrary PHP code.<br>
+        <br>
+
+        <h2>Gaining Access</h2>
+        Since we need admin credentials to execute the attack I head over to the /nibbleblog/admin.php page and I am greeted with<br>
+        a login screen.<br>
+        <br>
+        I try some default username and password credentials such as admin:admin admin:password etc. none of them seem to work.<br>
+        <br>
+
+        I go back to my dirb results and look at some other directories in hope to find more information.<br>
+        <br>
+
+        I get to nibbleblog/themes and find some interesting folders:<br>
+        <img src="images/nibbles/themes.png"><br>
+        Also, content had some interesting folders:<br>
+        <img src="images/nibbles/content.png"><br>
+        <br>
+        I spend some time just looking through these folders.<br>
+        <br>
+
+        I come across a file called "users.xml" and I confirm that the username is "admin." However, I think there is some<br>
+        sort of tracker checking the amount of failed log in attempts(fail_count).<br>
+        If I try to brute force this, I might get black listed so I will try to keep my password guessing to a minimum.<br>
+        <img src="images/nibbles/users.png"><br>
+        <br>
+
+        After looking around the files in the content and theme directories, I didn't find anything that could be<br>
+        a potential password.<br>
+        <br>
+        At this point I'm desperate for answers and I remembered something from Christopher Hadnagy's book<br>
+        "Social Engineering: The Art of Human Hacking" Chris stated that a common technique of hackers is to search for<br>
+        the most commonly used words on a website and some times, those words are used as passwords.<br>
+        <br>
+
+        I run CeWl to get a small wordlist of the most commonly used words on the NibblesBlog and get these results:<br>
+        <img src="images/nibbles/cewl.png"><br>
+
+        I try admin:Nibbles, another failed login attempt.<br>
+        I decided to try admin:nibbles, this time with a lowercase 'N' AND SUCCESS! IM IN!<br>
+        About 2 hours have gone by now and I finally was able to log in as admin!<br>
+        (the box time expired at this point so i had to refresh the machine giving me a new IP address.)<br>
+        <br>
+        I am greeted with this dashboard:<br>
+        <img src="images/nibbles/dashboard.png"><br>
+        <br>
+        Navigating to the plugins page I see a "My Image" plugin.<br>
+        <h2>Exploitation</h2>
+        Ill try to file upload exploits, as my results from searchsploit showed it is vulnerable in this version.<br>
+        <br>
+
+        I create a simple php file with the following code as a test: <?php system('id'); ?><br>
+        <br>
+
+        I get a bunch of error messages but from research on the exploit, it says to ignore the errors.<br>
+        <br>
+
+        I go to the contents directory and locate where the file would have been uploaded:<br>
+        /nibbleblog/content/private/plugins/my_image/<br>
+        <br>
+        There I see the file I uploaded and click on it and I am rewarded with this:<br>
+        <img src="images/nibbles/imgupload.png"><br>
+        <br>
+        The php script worked!<br>
+        <br>
+        Ill upload another php file, this time to get a shell to the box.<br>
+        <br>
+        I set up ncat to listen on port 9998 upload my shell and boom:<br>
+        <img src="images/nibbles/goodshell.png"><br>
+        <br>
+        Im in the system.<br>
+        Do the usual shell upgrade to make my life easier navigating the system, and go flag hunting.<br>
+        <br>
+        I go to the nibbler home directory and find my first flag in "user.txt"<br>
+        <img src="images/nibbles/userflag.png"><br>
+
+        <h2>Privelege Escalation</h2>
+        Now to privesc to get the root flag.<br>
+        <br>
+        I unzip the personal.zip folder i see and get to something called "monitor.sh"<br>
+        <img src="images/nibbles/unzipped.png"><br>
+
+        After a 'sudo -l command' I see I can execute '/home/nibbler/personal/stuff/monitor.sh' as sudo<br>
+        this file also seems to be writable.<br>
+        <br>
+
+        I'll append a reverse shell to the end of the file and execute it with sudo to get a reverse shell as a root user.<br>
+        I execute the file from the victim machine:<br>
+        <img src="images/nibbles/rootshell1.png"><br>
+        On another ncat listener I have my root shell:<br>
+        <img src="images/nibbles/root2.png"><br>
+        <br>
+        Open the root.txt and we have now pwned the box!<br>
+        <img src="images/nibbles/rootflag.png"><br>
+
+    </div>
+    <div class="botcontainer">
     </div>
 
 
