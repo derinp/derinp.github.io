@@ -21,9 +21,9 @@
 title: My Quest to defend the innocent in a world full of evil
 email: derinperez@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Joing me in my quest in defending againts the evils in Cybersecurity.
+  Join me in my quest in defending againts the evils in Cybersecurity.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://derinp.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  derinp
 
 # Build settings
