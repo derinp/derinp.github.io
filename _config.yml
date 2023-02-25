@@ -18,17 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 'Adventures of Defengu'
-Description: 'The story of me, Defengu, as I embark on my quest to conquer the evils of Cybersec'
+title: "Adventures of Defengu"
+Description: "The story of me, Defengu, as I embark on my quest to conquer the evils of Cybersec"
 #baseurl: '/derinp.github.io'
-url: "https://derinp.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://derinp.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-header_page:
+header_pages:
   - index.md
   - about.md
 
 style: dark
-footer: 'My Quest in defending the innocent in a world full of evil'
+footer: "My Quest in defending the innocent in a world full of evil"
 
 
 
