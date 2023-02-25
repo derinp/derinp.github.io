@@ -20,8 +20,8 @@
 
 title: My Quest to defend the innocent in a world full of evil
 email: derinperez@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-Welcome, adventurer, to my realm of cybersecurity! 
+description: >- # this means to ignore newlines until "baseurl:" Welcome, adventurer, to my realm of cybersecurity!
+
 My name is DefenWelcome, adventurer, to my realm of cybersecurity! My name is Derin, and I am a seeker of knowledge and power in the mystical realm of reverse engineering malware.
 
 As I travel through the treacherous landscapes of assembly code and navigate the intricate webs of networking technologies, I am constantly challenged by the dark forces of cyber threats that seek to corrupt and destroy. But armed with my Network+ certification, I am determined to protect the innocent and defeat the forces of evil.
@@ -41,6 +41,7 @@ adventurers in the realm of cybersecurity.
 
 So come, brave adventurer, and join me on this epic quest to master the arcane arts of cybersecurity and safeguard 
 the digital world from the forces of darkness!
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
