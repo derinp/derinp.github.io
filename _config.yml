@@ -18,16 +18,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+title: 'Adventures of Defengu'
+Description: 'The story of me, Defengu, as I embark on my quest to conquer the evils of Cybersec'
+header_page:
+  - index.md
+  - about.md
+
 footer: 'My Quest in defending the innocent in a world full of evil'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://derinp.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
+markdown: kramdown
 remote_theme: b2a3e8/jekyll-theme-console
 plugins:
   - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
