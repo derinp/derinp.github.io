@@ -27,7 +27,7 @@ url: "https://derinp.github.io/" # the base hostname & protocol for your site, e
 github_username:  derinp
 
 # Build settings
-theme: minima
+remote_theme: b2a3e8/jekyll-theme-console
 plugins:
   - jekyll-feed
 
