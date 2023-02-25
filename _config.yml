@@ -20,7 +20,7 @@
 
 title: 'Adventures of Defengu'
 Description: 'The story of me, Defengu, as I embark on my quest to conquer the evils of Cybersec'
-baseurl: '/derinp.github.io'
+#baseurl: '/derinp.github.io'
 url: "https://derinp.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 header_page:
