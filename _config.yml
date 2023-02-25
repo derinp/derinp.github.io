@@ -20,13 +20,16 @@
 
 title: 'Adventures of Defengu'
 Description: 'The story of me, Defengu, as I embark on my quest to conquer the evils of Cybersec'
+baseurl: '/derinp.github.io'
+url: "https://derinp.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
 header_page:
   - index.md
   - about.md
 
+style: dark
 footer: 'My Quest in defending the innocent in a world full of evil'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://derinp.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
 
 
 # Build settings
