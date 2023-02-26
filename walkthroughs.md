@@ -4,4 +4,4 @@ title: /walkthroughs
 permalink: /walkthroughs/
 ---
 
-Example Text
+Any posts about walkthrough of tryhackme labs or hackthebox challenges can be found here.
