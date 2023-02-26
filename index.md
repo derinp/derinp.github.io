@@ -1,7 +1,7 @@
 ---
 title: /Home
 layout: home
-permalink: /home
+permalink: /
 ---
 
 ## The story so far...
