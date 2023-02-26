@@ -13,8 +13,7 @@ permalink: /cybersigils/
 
 ![linuxlogo](/assets/linux+.png)
 
-
-
+# In Progress
 
 ░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 18%
 
