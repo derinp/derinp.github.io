@@ -14,6 +14,8 @@ permalink: /cybersigils/
 ![linuxlogo](/assets/linux+.png)
 
 
+
+
 ░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 18%
 
 ![cysa logo](/assets/cysa(1).png)
