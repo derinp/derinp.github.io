@@ -4,9 +4,7 @@ title:  "Chapter 1/ Getting Started"
 date:   2023-02-25 19:41:00 -0500
 categories: update
 ---
-#The Begining
-
-Greetings, fellow adventurers of the cybersecurity realm!
+# Getting Started
 
 Welcome to my digital abode, where I chronicle my journey through the wondrous world of cybersecurity. My name is Derin, a seeker of knowledge and a protector of the digital realm.
 
