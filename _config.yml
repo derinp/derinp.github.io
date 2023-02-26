@@ -25,7 +25,7 @@ url: "https://derinp.github.io" # the base hostname & protocol for your site, e.
 
 header_pages:
   - index.md
-  - about.md
+  - contact.md
 
 style: dark
 footer: "My Quest in defending the innocent in a world full of evil"
