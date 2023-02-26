@@ -25,6 +25,10 @@ url: "https://derinp.github.io" # the base hostname & protocol for your site, e.
 
 header_pages:
   - index.md
+  - scrolls.md
+  - cybersigils.md
+  - walkthroughs.md
+  - homelab.md
   - contact.md
 
 style: dark
