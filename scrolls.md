@@ -4,4 +4,5 @@ title: /scrolls
 permalink: /scrolls/
 ---
 
-Example text
+Work in progress.
+All of my book recommendations, tech related or not.
