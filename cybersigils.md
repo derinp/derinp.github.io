@@ -10,8 +10,10 @@ permalink: /cybersigils/
 # In Progress
 
 ░░░░░░░░░░░░▓▓▓▓▓▓▓▓ 60%
-![linuxlogo](/assets/linux+.png)]
+
+![linuxlogo](/assets/linux+.png)
 
 
 ░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 18%
-![cysa logo](/assets/cysa(1).png)]
+
+![cysa logo](/assets/cysa(1).png)
