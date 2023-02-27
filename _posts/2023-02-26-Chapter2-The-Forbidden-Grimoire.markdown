@@ -32,7 +32,7 @@ As I tried to install the dependencies of the Forbidden Grimoire using npm insta
 With the latest version of Node.js in place, I made my way to the directory where I had cloned the OWASP Juice Shop repository and invoked the following incantation to install the dependencies of the Forbidden Grimoire:
 
   {% highlight shell %}
-  (npm install)
+  npm install
   {% endhighlight %}
 
 # Step 5: Cast the Spell to Summon the Forbidden Grimoire
