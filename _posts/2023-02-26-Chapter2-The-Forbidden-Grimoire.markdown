@@ -13,35 +13,35 @@ As a technomancer seeking to delve deeper into the arcane secrets of web applica
 
 To gain access to the Forbidden Grimoire, I had to first clone the OWASP Juice Shop Repository from the GitHub plane. With my terminal as my trusty wand, I navigated to the directory where I wanted to clone the repository using the cd command and invoked the incantation:
 
-{% highlight shell %}
-git clone https://github.com/bkimminich/juice-shop.git
-{% endhighlight %}
+  {% highlight shell %}
+  git clone https://github.com/bkimminich/juice-shop.git
+  {% endhighlight %}
 
 # Step 3: Install the Latest Version of Node.js
 
 As I tried to install the dependencies of the Forbidden Grimoire using npm install, I discovered that the version of Node.js that was currently installed on my laptop was archaic and incompatible with some of the dependencies. To remedy this, I used my magical abilities to remove the old version and install the latest version using the following spells:
 
-{% highlight shell %}
-sudo apt purge --auto-remove nodesj # to banish the old version of nodejs
-sudo snap install node --classic # to install the latest version with snap
-sudo apt-get install -y nodejs # to summon additional dependencies
-{% endhighlight %}
+  {% highlight shell %}
+  sudo apt purge --auto-remove nodesj # to banish the old version of nodejs
+  sudo snap install node --classic # to install the latest version with snap
+  sudo apt-get install -y nodejs # to summon additional dependencies
+  {% endhighlight %}
 
 # Step 4: Install the Forbidden Grimoire Dependencies
 
 With the latest version of Node.js in place, I made my way to the directory where I had cloned the OWASP Juice Shop repository and invoked the following incantation to install the dependencies of the Forbidden Grimoire:
 
-{% highlight shell %}
-(npm install)
-{% endhighlight %}
+  {% highlight shell %}
+  (npm install)
+  {% endhighlight %}
 
 # Step 5: Cast the Spell to Summon the Forbidden Grimoire
 
 With the Forbidden Grimoire dependencies in place, I summoned the Grimoire by casting the following spell in the terminal:
 
-{% highlight shell %}
-npm start
-{% endhighlight %}
+  {% highlight shell %}
+  npm start
+  {% endhighlight %}
 
 # Step 6: Peer into the Forbidden Grimoire on My Laptop
 
