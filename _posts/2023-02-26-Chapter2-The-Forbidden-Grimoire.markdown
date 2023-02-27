@@ -2,7 +2,7 @@
 layout: page
 title:  "Chapter 2/ The Forbidden Grimoire"
 date:   2023-02-26 21:28:00 -0500
-categories: walkthrough
+categories:b2a3e8/jekyll-theme-console
 ---
 
 # Setting up the Forbidden Grimoire of OWASP Juice Shop on my Laptop
@@ -14,7 +14,7 @@ As a technomancer seeking to delve deeper into the arcane secrets of web applica
 To gain access to the Forbidden Grimoire, I had to first clone the OWASP Juice Shop Repository from the GitHub plane. With my terminal as my trusty wand, I navigated to the directory where I wanted to clone the repository using the cd command and invoked the incantation:
 
 
-(git clone https://github.com/bkimminich/juice-shop.git)
+git clone https://github.com/bkimminich/juice-shop.git
 {% endhighlight %}
 
 # Step 3: Install the Latest Version of Node.js
