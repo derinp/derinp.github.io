@@ -13,7 +13,7 @@ As a technomancer seeking to delve deeper into the arcane secrets of web applica
 
 To gain access to the Forbidden Grimoire, I had to first clone the OWASP Juice Shop Repository from the GitHub plane. With my terminal as my trusty wand, I navigated to the directory where I wanted to clone the repository using the cd command and invoked the incantation:
 
-
+{% highlight shell %}
 git clone https://github.com/bkimminich/juice-shop.git
 {% endhighlight %}
 
