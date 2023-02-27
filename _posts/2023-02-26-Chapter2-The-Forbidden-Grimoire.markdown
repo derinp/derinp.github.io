@@ -7,7 +7,7 @@ categories: walkthrough
 
 # Setting up the Forbidden Grimoire of OWASP Juice Shop on my Laptop
 
-As a techno-mage seeking to delve deeper into the arcane secrets of web application security testing, I set out to install the Forbidden Grimoire of OWASP Juice Shop on my laptop. My ultimate goal was to unlock the hidden knowledge within the Grimoire and analyze its traffic using the mystical powers of Wireshark. Here is the chronicle of my quest to set up the Forbidden Grimoire on my laptop:
+As a technomancer seeking to delve deeper into the arcane secrets of web application security testing, I set out to install the Forbidden Grimoire of OWASP Juice Shop on my laptop. My ultimate goal was to unlock the hidden knowledge within the Grimoire and analyze its traffic using the mystical powers of Wireshark. Here is the chronicle of my quest to set up the Forbidden Grimoire on my laptop:
 
 # Step 1: Clone the OWASP Juice Shop Repository
 
