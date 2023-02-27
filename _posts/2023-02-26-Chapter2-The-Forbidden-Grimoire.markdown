@@ -2,7 +2,7 @@
 layout: page
 title:  "Chapter 2/ The Forbidden Grimoire"
 date:   2023-02-26 21:28:00 -0500
-categories:b2a3e8/jekyll-theme-console
+categories:
 ---
 
 # Setting up the Forbidden Grimoire of OWASP Juice Shop on my Laptop
