@@ -13,5 +13,6 @@ As I travel through the treacherous landscapes of assembly code and navigate the
 
 But my journey does not end there. I am currently on a quest to obtain the knowledge that is hidden within the CySA+ and Linux+ runes, which will unlock even greater levels of mastery in this mystical art. Through my website, I will share the secrets and wisdom that I have gained on this perilous journey, providing valuable insights and guidance to fellow adventurers in the realm of cybersecurity.
 
+note: please pardon the appareance of my website for now. I just relaunched it, took down a bunch of old content and adding a new fantasy world theme to it! thank you for understanding :)
 
 # Adventures:
