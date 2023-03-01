@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  "Chapter 1/ Getting Started"
-date:   2023-02-25 19:41:00 -0500
+title:  "Chapter 3/ Adventure to the Land of SIEMs"
+date:   2023-02-28 20:50:00 -0500
 categories: update
 ---
 
