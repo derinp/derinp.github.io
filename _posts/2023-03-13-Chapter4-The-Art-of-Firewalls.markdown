@@ -26,7 +26,7 @@ This command should output the following:
   Status: active
 
   To                         Action      From
-  --                         ------      ----
+   --                         ------      ----
   80/tcp                     ALLOW       Anywhere                  
   443/tcp                    ALLOW       Anywhere                  
 
@@ -43,7 +43,7 @@ This command should output the following:
   Status: active
 
   To                         Action      From
-  --                         ------      ----
+   --                         ------      ----
   22/tcp                     ALLOW IN    192.168.1.100
 
 # Scenario 3: Allowing SMTP Traffic
@@ -60,7 +60,7 @@ This command should output the following:
   Status: active
 
   To                         Action      From
-  --                         ------      ----
+   --                         ------      ----
   25/tcp                     ALLOW       Anywhere                  
   465/tcp                    ALLOW       Anywhere                  
 
