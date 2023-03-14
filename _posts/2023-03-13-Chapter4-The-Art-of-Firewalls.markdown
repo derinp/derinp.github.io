@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Chapter 4/ The Art of Firewalls and Rules"
-date:   2023-03-13 22:34:00 -0500
+date:   2023-03-13 22:34:00
 categories: update
 ---
 
