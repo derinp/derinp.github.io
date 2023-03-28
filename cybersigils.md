@@ -3,7 +3,7 @@ layout: page
 title: /cyber sigils
 permalink: /cybersigils/
 ---
-# updated 03/09/2023
+# updated 03/28/2023
 
 # Obtained
 
@@ -11,12 +11,12 @@ permalink: /cybersigils/
 
 # In Progress
 
-░░░░░░░░░░░░▓▓▓▓▓▓▓▓ 60%
+░░░░░░░░░░░░░░▓▓▓▓▓▓ 70%
 
 ![linuxlogo](/assets/linux+.png)
 
 # In Progress
 
-░░░░░░░░░░░▓▓▓▓▓▓▓▓▓ 56%
+░░░░░░░░░░░░░▓▓▓▓▓▓▓ 66%
 
 ![cysa logo](/assets/cysa(1).png)
