@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Chapter 6/ This Is How They Tell Me The World Ends by Nicole Perlroth"
-date:   2023-03-20 22:34:00
+date:   2023-03-29 22:34:00
 categories: update
 ---
 
