@@ -11,12 +11,13 @@ permalink: /cybersigils/
 
 # In Progress
 
+░░░░░░░░░░░░░░░░░░▓▓ 90%
+
+![cysa logo](/assets/cysa(1).png)
+
+# In Progress
+
 ░░░░░░░░░░░░░░▓▓▓▓▓▓ 70%
 
 ![linuxlogo](/assets/linux+.png)
 
-# In Progress
-
-░░░░░░░░░░░░░▓▓▓▓▓▓▓ 66%
-
-![cysa logo](/assets/cysa(1).png)
