@@ -3,7 +3,7 @@ layout: page
 title: /cyber sigils
 permalink: /cybersigils/
 ---
-# updated 03/28/2023
+# updated 04/07/2023
 
 # Obtained
 
