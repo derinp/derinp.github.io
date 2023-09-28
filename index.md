@@ -8,4 +8,6 @@ permalink: /
 
 currently working on revamping my website. Pardon the lack of content :(
 
+![penguhh](/assets/penguhh.png)
+
 # Adventures:
